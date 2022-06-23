@@ -1,0 +1,88 @@
+.labels{
+    font-weight: bold;
+    font-variant: small-caps;
+   }
+.login-card{
+    /*background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);*/
+
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+/*.login-card:hover{
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+}*/
+.card{
+    background-color: #74EBD5;
+    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+}
+.gallery{
+    width:100%
+    /*overflow:none;*/
+}
+.gallery img:hover{
+    border: 4px solid gainsboro;
+    border-radius: 7px;
+    box-shadow: 5px 10px 35px 5px;
+    background-color: #383333;
+    cursor: pointer;
+}
+.about{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 550;
+    color: rgb(70, 62, 62);
+    padding:10px;
+}
+
+body{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+}
+
+/*
+.btn-primary {background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  51%, #1FA2FF  100%)}
+.btn-primary {
+   margin: 10px;
+   padding: 10px 20px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: black;
+   font-weight: 490;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+ }
+
+ .btn-primary:hover {
+   background-position: right center; /* change the direction of the change here 
+   color: #fff;
+   text-decoration: none;
+ }
+ */
+
+ h1{
+     background: -webkit-linear-gradient(#eee, #333);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ .card-heading{
+     font-size: 40px;
+     font-weight: 500;
+ }
+
+ .card-headings{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contactpara{
+    font-size:17px;
+    font-weight: 450;
+}
